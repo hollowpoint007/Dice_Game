@@ -1,0 +1,38 @@
+.winner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 5rem;
+}
+
+.player-names{
+    font-family: 'Comic Neue', cursive;
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    margin: auto;
+    width: 35%;
+    padding: 20px;
+
+}
+
+.items{
+    display: inline-block;
+    margin: auto;
+    padding: 10px;
+
+}
+
+body{
+    text-align: center;
+    background-color: rgb(57, 62, 70);
+}
+
+.dice{
+    padding: 20px;
+    margin: 0 10 0 10;
+    align-items: center;
+}
